@@ -8,7 +8,7 @@ lazy val root =
       ),
       libraryDependencies ++= Seq(
         "org.scalaz" %% "scalaz-base" % "8.0.0-SNAPSHOT",
-        "org.scalaz" %% "scalaz-zio" % "0.2.1+2-ea655328-SNAPSHOT"
+        "org.scalaz" %% "scalaz-zio"  % "0.2.1+2-ea655328-SNAPSHOT"
       ),
       stdSettings("http")
     )
